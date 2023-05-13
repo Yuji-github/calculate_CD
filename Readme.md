@@ -4,15 +4,15 @@
 
 2. Set up DockerHub account
 
-3. python3 -m venv env
+3. python3 -m venv cd_test
 
-4. source env/Scripts/activate
+4. cd_test\Scripts\activate <!-- this is for windows env and the terminal is cmd not PS>
 
 5. pip install flask
 
 6. pip freeze > requirements.txt
 
-7. Add your `DOCKER_USERNAME`, `DOCKER_PASSWORD`, `DOCKERHUB_REPO` at Github -> Settings -> Secrets
+7. Add your `DOCKER_USERNAME![img.png](img.png)`, `DOCKER_PASSWORD`, `DOCKERHUB_REPO` at Github -> Settings -> Secrets
 
 8. GitHub-> Repo -> Action -> `Publish Python package` -> `Set up this workflow`
 
